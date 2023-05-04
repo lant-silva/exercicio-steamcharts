@@ -18,7 +18,7 @@ public class Main {
 		
 		try {
 			chart.criarCsv(path, arquivo, ano, mes);
-			//			chart.mediaJogo(path, arquivo, ano, mes, media);
+			chart.mediaJogo(path, arquivo, ano, mes, media);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
